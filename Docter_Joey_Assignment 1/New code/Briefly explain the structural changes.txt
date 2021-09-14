@@ -1,0 +1,13 @@
+In my weaponHandler there is a switch case and functions that should switch with using a if statement.
+
+
+I created a IShoot script becuase all weapons can shoot and fire.
+
+A weapon script where all the basic function are defined so that they can be reused.
+
+every weapon inherit from the weapon script and override the Fire function because every weapon has a different way of shooting.
+
+made a ammo script that the weapons make use of and inherit the reload script.
+
+and a reload script because not all weapons can reload.
+
