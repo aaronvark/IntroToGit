@@ -1,0 +1,16 @@
+Ik had eerst 2 scripts.
+1 script handelde de magnetische pull en push voor de speler
+en 1 script die de magnetische pull en push van een ander object handelt.
+De code in beide scripts waren bijna hetzelfde, dus dit was perfect om te refactoren.
+
+Ik heb de 2 scripts naar 1 script verwerkt.
+Van MagnetPush en MagnetPull naar FullMagnet.
+De FullMagnet werkt nu voor zowel de player als het gekozen object.
+
+De code werkt doordat ik met 2 parameters de objecten kan switchen die gepulled of gepushed worden.
+Dit was eerst hardcoded in de andere scripts gedaan en nu is het een soort van dynamischer.
+De parameters worden geswitched (op een niet zo nette manier, dit ga ik nog verbeteren) met een heleboel if statements.
+
+
+
+
