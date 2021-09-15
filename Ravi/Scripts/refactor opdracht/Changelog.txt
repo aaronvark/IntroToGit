@@ -1,0 +1,31 @@
+Dit is een stuk code van een project van 3-4 jaar geleden van mij wat best groot was.
+
+Hierin had de speler meerdere wapens met verschillende mechanics.
+
+Het stukje code voor de refactor is van een kanon dat bommetjes schiet.
+Bij impact van de bom op iets zonder een schild ontploft het. 
+Bij de explosie komen de homing missiles vrij van de bom die richting een enemy gaan.
+De bomb speelt een particle, geluid en camera shake af bij impact.
+
+Deze refactor focussed zich dus alleen op de Bomb. 
+Het mapje anti error bevat basis code dat nodig is voor de ClusterBallBomb.
+
+
+Wijzigingen:
+- Interfaces.cs
+Hierin zit een interface voor dingen die schade kunnen krijgen en bullets.
+Schade zorgt ervoor dat het makkelijker is om schade aan te richten op elk object. 
+Bullet zorgt ervoor dat alle types van bullet wat basis structuur aanhouden.
+
+- Ammo.cs
+Dit is een abstracte class wat alle ammo varianten overerven. 
+Hier worden basis waarden gezet en een destroy functie dat per type kan verschillen.
+
+- ClusterBallBomb.cs
+Hier heb ik een aantal dingen uitgehaald door te overerven van Ammo en de IBullet interface
+te implementeren.
+De AudioHandler en GameStatistics zijn in het project zelf geen singleton. 
+Dit is wel iets wat ik zou toepassen als ik het hele project zou refactoren.
+De collission functie is nu een stuk compacter en leesbaarder met sub functies.
+De sub functies hebben een duidelijke naamgeving voor wat ze doen.
+
