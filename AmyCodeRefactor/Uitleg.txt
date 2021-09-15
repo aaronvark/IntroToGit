@@ -1,0 +1,8 @@
+Hiervoor was alles in 1 script, Player.
+De Health, Movement,minecraft-like Inventory, Inventory ui Dingen.
+nu niet meer :).
+
+Heb zoveel mogelijk opgesplitst in goede componenten.
+het kan nog meer opgeschoond worden maar voor nu is het goed genoeg.
+Alles is beter dan Inventory in een Player.
+Voor veel is het ook nodig om andere scripts op te verbeteren 😔
