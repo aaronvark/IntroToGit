@@ -1,0 +1,16 @@
+Er is niet veel meer over van het originele script, alles is opgedeelt in kleinere onderdelen die 
+alleen doen wat ze moeten doen. Het originele script hield een hoop dingen bij voor de player, zoals
+de attacks, de health, animations en UI. Al deze onderdelen hadden hun eigen functies die allemaal
+in een eigen class konden. Wat ik heb gedaan.
+
+Ik heb alles uit elkaar gehaald om Hard Coppling te ontlopen, de onderdelen zelf zijn simpelweg
+om ervoor te zorgen dat de scripts maar 1 ding hoeven te doen.
+
+Nieuw:
+-IDamagable
+-HealthComponent
+-UIManager
+-VisualManager
+-EventManager
+-InputManager
+-ResponseContainer
