@@ -1,0 +1,16 @@
+Refactor changes for Old shotgun script from Building playful worlds 1
+- Aaron Veltman
+
+Created Abstract class "Weapon"
+- Holds Attack function and damage property used by every type of weapon
+- Attack function can be called for every weapon
+- Inherited by shotgun script
+
+Created Interface "IUseAmmo"
+- Weapons that use Ammo like guns can use the IUseAmmo interface
+- Holds AmmoDrain Property
+
+Created Interface "IDamageable"
+- Replaces Enemy component check so damage could be applied to classes that use IDamageable
+
+Singleton for PlayerResources and FpsCam to be more easily accessed.
