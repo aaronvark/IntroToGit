@@ -1,0 +1,5 @@
+Vóór de refactor handlede mijn movement script zowel de input, de movement, en de animaties.
+Nu heb ik deze functionaliteiten opgesplitst in PlayerInput.cs, Movement.cs, Player.cs, en PlayerAnimation.cs.
+Van de player heb ik een singleton gemaakt en ik heb door middel van events de communicatie gelegd tussen de verschillende player scripts.
+
+Ook ben ik begonnen met het refactoren van de health system met behulp van een interface, maar ik heb geen tijd gehad om dit af te maken.
