@@ -1,0 +1,1 @@
+The Finite State Machine has been changed to a generic type so it can be reused for other classes. Some code has been reordered according to code conventions
