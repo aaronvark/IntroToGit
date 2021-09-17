@@ -1,0 +1,2 @@
+Ik heb de code conventions gevolgd
+Ik heb geprobeerd te focussen op het damage aspect van de code omdat dat iets is waar ik moeite mee heb om goed te implementeren op grote schaal, en het concept van interfaces een goede oplossing leek. Ik weet dat ik duidelijk nog niet goed begrijp hoe je ze het beste kan implementeren, dus ik hoop hierop feedback te krijgen.
